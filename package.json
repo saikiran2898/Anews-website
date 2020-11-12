@@ -1,0 +1,22 @@
+{
+  "name": "development",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easy",
+    "way",
+    "hardwork"
+  ],
+  "author": "sk",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.10.8",
+    "parser": "^0.1.4"
+  }
+}

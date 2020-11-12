@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: gray; */
+}
+
+#head{
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 2px 2px grey;
+}
+
+#head h1{
+  text-align: center;
+}
+
+#head h2{
+    text-align: center;
+}
+#navbar{
+    /* border: 2px solid red; */
+    padding: 12px 3px;
+    display: flex;
+    background-color: lightgray;
+}
+#navbar ul{
+    display: flex;
+    padding: 5px 7px;
+    list-style: none;
+    margin: auto;
+}
+#navbar h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#navbar ul li{
+    padding: 2px 35px;
+}
+
+.menuul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    /* border:  2px solid black; */
+    padding: 8px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menuul li a:hover{
+    opacity: 0.8;
+    border-radius: 6px;
+    background-color: honeydew;
+    /* border:2px solid steelblue; */
+}
+#slide-box{
+    padding: 5px 0px;
+    height: 480px;
+    width: 1349px;
+    /* border: 2px solid red; */
+}
+#slide-box div{
+    height: 460px;
+    width: 1343px;
+    /* border: 2px solid purple; */
+    background-image: url('https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/08/pjimage-1596012265-1596129120-1596883435-1-1597052557.jpg'); background-position: center;background-repeat: no-repeat; background-size: cover;
+}
+#slide-box div{
+    animation-name: move;
+    animation-duration: 30s;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{background-image: url('https://hub.umd.edu/sites/default/files/styles/umd_2560_1440/public/2020-01/image/coronavirus_1920x1080.jpg?itok=YvxilXu2'); background-position: center; background-repeat: no-repeat; }
+    35%{ background-image: url('https://i.pinimg.com/originals/71/b5/b4/71b5b4a0fa0e2d6788e057227a15771c.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+    75%{background-image:  url('https://vistapointe.net/images/politics-wallpaper-1.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;}
+    100%{background-image:  url('https://c4.wallpaperflare.com/wallpaper/759/428/990/uplifting-rays-of-sunshine-wallpaper-preview.jpg'); background-position: center; background-repeat: no-repeat; background-size:cover;}
+}
+
+#cardbox{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+}
+#cardbox #card1 {
+    /* border: 2px solid teal; */
+    margin: 2px 3px;
+    padding: 2px 3px;
+    /* box-shadow: 10px 5px 5px black; */
+}
+#cardbox #card1:hover{
+    box-shadow: 10px 5px 5px black;
+    transition: 3s;
+}
+#cardbox #card2:hover{
+    box-shadow: 10px 5px 5px black;
+    transition: 3s;
+}
+#cardbox #card3:hover{
+    box-shadow: 10px 5px 5px black;
+    transition: 3s;
+}
+#cardbox #card4:hover{
+    box-shadow: 10px 5px 5px black;
+    transition: 3s;
+}
+#cardbox #card1 img:hover{
+    height: 222px;
+    transition: 3s;
+}
+#cardbox #card2 img:hover{
+    height: 222px;
+    transition: 3s;
+}
+#cardbox #card3 img:hover{
+    height: 222px;
+    transition: 3s;
+}
+#cardbox #card4 img:hover{
+    height: 222px;
+    transition: 3s;
+}
+#cardbox #card2 {
+    /* border: 2px solid teal; */
+    margin: 2px 3px;
+    padding: 2px 3px;
+}
+#cardbox #card3 {
+    /* border: 2px solid teal; */
+    margin: 2px 3px;
+    padding: 2px 3px;
+}
+#cardbox #card4 {
+    /* border: 2px solid teal; */
+    margin: 2px 3px;
+    padding: 2px 3px;
+}
+#cardbox #card1 h2 a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cardbox #card2 h2 a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cardbox #card3 h2 a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cardbox #card4 h2 a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cardbox #card1 img{
+    height: 185px;
+}
+#cardbox #card2 img{
+    height: 185px;
+}
+#cardbox #card3 img{
+    height: 185px;
+}
+#cardbox #card4 img{
+    height: 185px;
+}
+#foot h1{
+    text-align: center;
+    font-family: cursive;
+}
+#foot{
+    background-color: grey;
+}

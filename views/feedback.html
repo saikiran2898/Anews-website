@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>feedback</title>
+</head>
+
+<body>
+    <header id="head">
+        <h1>Black Lives Matter</h1>
+        <hr>
+        <h2>Stay Home Stay Safe</h2>
+    </header>
+    <nav id="navbar">
+        <h1>S News</h1>
+        <ul class="menuul">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/Topnews">Top News</a></li>
+            <li><a href="/feedback">feedback</a></li>
+            <li><a href="/contactus">Contact us</a></li>
+        </ul>
+    </nav>
+    <div id="formcontainer">
+        <form action="/feedback" method="post">
+            <div id="formbox">
+                <div id="b1">
+                    <label for="firstname"> firstname
+                        <input type="text" placeholder="firstname" name="firstname" id="fname">
+                    </label>
+                </div>
+                <div id="b1">
+                    <label for="lastname"> lastname
+                        <input type="text" name="lastname" id="lname" placeholder="lastname">
+                    </label>
+                </div>
+                <div id="b1">
+                    <label for="email">email
+                        <input type="email" name="email" id="email" placeholder="email">
+                    </label>
+                </div>
+                <div id="b1">
+                    <label for="your concern"> your concern
+                        <input type="text" name="your concern" id="yourconcern">
+                    </label>
+                </div>
+                <div id="btn">
+                    <button type="submit"> submit your concern </button>
+                </div>
+            </div>    
+        </form>
+    </div>
+</body>
+
+</html>

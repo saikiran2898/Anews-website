@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: gray; */
+}
+
+#head{
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 2px 2px grey;
+}
+
+#head h1{
+  text-align: center;
+}
+
+#head h2{
+    text-align: center;
+}
+#navbar{
+    /* border: 2px solid red; */
+    padding: 12px 3px;
+    display: flex;
+    background-color: lightgray;
+}
+#navbar ul{
+    display: flex;
+    padding: 5px 7px;
+    list-style: none;
+    margin: auto;
+}
+#navbar h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#navbar ul li{
+    padding: 2px 35px;
+}
+
+.menuul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    /* border:  2px solid black; */
+    padding: 8px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menuul li a:hover{
+    opacity: 0.8;
+    border-radius: 6px;
+    background-color: honeydew;
+    /* border:2px solid steelblue; */
+}
+
+#box1{
+    border: 2px solid red;
+    height: 188px;
+    width: 1364px;
+    margin-top: 11px;
+    background-color: powderblue;
+}
+
+#box1 #img img{
+    border: 2px solid pink;
+    height: 108px;
+}
+#box2{
+    border: 2px solid red;
+    height: 188px;
+    width: 1364px;
+    margin-top: 11px;
+    background-color: powderblue;
+}
+
+#box2 #img img{
+    border: 2px solid pink;
+    height: 108px;
+}
+#box3{
+    border: 2px solid red;
+    height: 188px;
+    width: 1364px;
+    margin-top: 11px;
+    background-color: powderblue;
+}
+
+#box3 #img img{
+    border: 2px solid pink;
+    height: 108px;
+}
+#box4{
+    border: 2px solid red;
+    height: 188px;
+    width: 1364px;
+    margin-top: 11px;
+    background-color: powderblue;
+}
+
+#box4 #img img{
+    border: 2px solid pink;
+    height: 108px;
+}
+#box5{
+    border: 2px solid red;
+    height: 188px;
+    width: 1364px;
+    margin-top: 11px;
+    background-color: powderblue;
+}
+
+#box5 #img img{
+    border: 2px solid pink;
+    height: 108px;
+}

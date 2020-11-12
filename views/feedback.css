@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: gray; */
+}
+
+#head{
+    /* border: 2px solid black; */
+    box-shadow: 2px 4px 2px 2px grey;
+}
+
+#head h1{
+  text-align: center;
+}
+
+#head h2{
+    text-align: center;
+}
+#navbar{
+    /* border: 2px solid red; */
+    padding: 12px 3px;
+    display: flex;
+    background-color: lightgray;
+}
+#navbar ul{
+    display: flex;
+    padding: 5px 7px;
+    list-style: none;
+    margin: auto;
+}
+#navbar h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#navbar ul li{
+    padding: 2px 35px;
+}
+
+.menuul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    /* border:  2px solid black; */
+    padding: 8px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menuul li a:hover{
+    opacity: 0.8;
+    border-radius: 6px;
+    background-color: honeydew;
+    /* border:2px solid steelblue; */
+}
+
+#formcontainer{
+    background-color: seagreen;
+    height: 500px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#formcontainer form #formbox{
+    margin-left: 400px;
+    padding: 25px;
+}
+
+#formcontainer #b1{
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+#formcontainer #b1 label{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: cursive;
+}
+#formcontainer #b1 label input{
+    padding: 7px 10px;
+    margin: 7px 10px;
+}
+
+#formcontainer #btn{
+    padding: 7px 10px;
+    margin: 4px;
+}
+#formcontainer #btn button{
+    padding: 7px 10px;
+}
